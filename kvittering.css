@@ -1,0 +1,21 @@
+#takk {
+    height: 60vh;
+    width: 100vw;
+    margin-top: 10em;
+}
+
+#takk article {
+    width: 30em;
+    height: 17em;
+    font-size: 2.2rem;
+    padding-top: 1em;
+    text-align: center;
+    margin: 0 auto;
+    border: 10px solid #212121;
+    background-color: #cf7500;
+    line-height: 200%;
+}
+
+.knapp {
+    margin-top: 4em;
+}

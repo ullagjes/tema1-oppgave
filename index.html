@@ -1,0 +1,129 @@
+<!DOCTYPE html>
+<html lang="no">
+<head>
+    <meta charset="UTF-8">
+    <meta name="viewport" content="width=device-width, initial-scale=1.0">
+    <title>Piratpartiet</title>
+    <link rel="stylesheet" href="./index.css">
+</head>
+<body>
+    <!--Footer og header er lik for alle nettsider, CSS for begge ligger i index.css-->
+    <header>
+        <nav id="navigasjon">
+            <!--BURGERMENY-->
+            <input id="cb" type="checkbox">
+
+            <label id="burger" for="cb">
+                <div></div>
+                <div></div>
+                <div></div>
+            </label>
+                
+            <nav id="menu">
+                <a href="./bli-medlem.html">Bli medlem</a>
+                <a href="./landsmote-2020.html">Landsmøte 2020</a>
+                <a href="./piratkodeksen.html">Piratkodeksen</a>
+            </nav>
+                <a class="navigasjon-logo" href="./index.html">
+                    <img class="navigasjon-bilde" src="./images/pirat-partiet-logo-slagord.png" alt="Piratpartiets logo. Linken fører til Piratpartiets startside.">
+                </a> 
+            </nav>           
+    </header>
+    <main>
+        <!--INTRODUKSJON-->
+
+        <section id="forsidebilde">
+            <article>
+                <h1>Pirater er frie, kritiske og rettferdige.</h1>
+                <p>Piratpartiet mener kunnskap og kultur skal deles og gjenbrukes, at individets rettigheter skal forsvares, og at Internett muliggjør en mer direkte og demokratisk politisk modell.</p>
+                <div class="knapp">
+                    <a href="/bli-medlem.html">Bli medlem</a>
+                </div>
+            </article>
+        </section>
+
+        <!--PARTILEDEREN-->
+
+        <section id="partilederen">
+            <img src="./images/svein-mork-dahl.jpeg" alt="partileder Svein Mork Dahl smiler til kamera. Portrettfoto">
+            <div id="partileder-overlay">
+                <h1><span class="uthevet">Vår visjon</span> er et bredere politisk system der <span class="uthevet-2">individuelle</span> og <span class="uthevet-3">demokratiske</span> rettigheter blir <span class="uthevet-4">ivaretatt</span>.</h1>
+                <p>Svein Mork Dahl, partileder i Piratpartiet.</p>
+                <a href="./landsmote-2020.html">Se årets landsmøte 2020</a>
+            </div>
+        </section>
+
+        <!--VÅRE KAMPSAKER-->
+
+        <section id="våre-kampsaker">
+            <h1>Våre kampsaker</h1>
+
+            <!--VÅRE KAMPSAKER GRID
+                Her ligger fire articles med tekst og bakgrunnsbilde i grid.
+            -->
+
+            <section id="våre-kampsaker-grid">
+                <article id="individ-og-personvern">
+                    <h2>Personvern</h2>
+                    <p>Grunnleggende prinsipper og rettigheter handler i bunnen om å beskytte de svake mot de sterke.</p>
+                </article>
+            
+                <article id="kommunikasjon-og-infrastruktur">
+                    <h2>Kommunikasjon</h2>
+                    <p>Kommunikasjon er selve livsnerven for et fungerende moderne samfunn.</p>
+                </article>
+
+                <article id="nettnøytralitet">
+                    <h2>Nettnøytralitet</h2>
+                    <p>Informasjonsfrihet er en menneskerettighet, og nettnøytralitet et nødvendig middel for det.</p>
+                </article>
+
+                <article id="skole-og-utdanning">
+                    <h2>Utdanning</h2>
+                    <p>Utdanningssystemet må være i harmoni fra barnehage til høyere utdanning.</p>
+                </article>
+            </section>
+        </section>
+    <!--KODEKS TEASER med lenke til piratkodeksen-->
+    <div id="kodeks-teaser">
+        <h2>
+            Vil du vite mer om politikken vår?
+        </h2>
+        <p>Les mer i <a id="kodeks-lenke"href="./piratkodeksen.html">Piratkodeksen.</a></p>
+    </div>     
+</main>
+    <footer>
+        <!--Footer og header er lik for alle nettsider, CSS for begge ligger i index.css-->
+        <div id="støtte">
+            <h1>Støtt oss økonomisk</h1>
+            <p>Bruk kort eller Vipps til #4455667</p>
+            <div id="donasjon-grid">
+                <p class="donasjon">50,-</p>
+                <p class="donasjon">100,-</p>
+                <p class="donasjon">200,-</p>
+                <p class="donasjon">Annet beløp</p>
+            </div>
+        </div>
+        <nav>
+            <a href="./index.html">
+                <img class="footer-logo" src="./images/piratpartiet-liten-logo.png" alt="Piratpartiets logo. Linken fører til Piratpartiets startside.">
+            </a> 
+            <ul id="besøk">
+                <h2 class="footer-uthevet">Besøksadresse:</h2>
+                <li>Piratpartiet</li>
+                <li>CSS Mailboks 49</li>
+                <li>Middelthunsgate 25</li>
+                <li>0368 Oslo</li>
+            </ul>
+
+            <ul id="sosiale-medier">
+                <h2 class="footer-uthevet">Følg oss på sosiale medier:</h2>
+                <li><a href=""><li>Facebook</li></a>
+                <li><a href=""><li>Twitter</li></a>
+                <li><a href=""><li>Linkedin</li></a>
+            </ul>   
+    </nav>
+</footer>
+    
+</body>
+</html>

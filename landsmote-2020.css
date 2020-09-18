@@ -1,0 +1,66 @@
+
+/*LANDSMØTE: FØRSTE SEKSJON: INTRO*/
+
+#intro {
+    margin: 9em 7em 0em 7em;
+    display: grid;
+    grid-template-columns: repeat(5, 1fr);
+    grid-auto-rows: 75vh;
+    gap: 2em;
+}
+
+#intro article {
+    background-color: #cf7500;
+    border: 1em solid #212121;
+    grid-column: 1 / span 2;
+}
+
+#intro h1 {
+    margin: 0 .5em;
+    font-size: 4rem;
+    padding: 1em 0;
+}
+
+#intro p {
+    font-size: 2.5rem;
+    margin: 0 1em;
+}
+
+/*LANDSMØTE: SEKSJON 1: INTRO, FREMHEVET VIDEO*/
+
+.hovedvideo {
+    height: 75vh;
+    width: 100%;
+    grid-column: 3 / span 5;
+    border: 1em solid #212121;
+}
+
+/*LANDSMØTE: SEKSJON 2: SE FLERE VIDEOER*/
+
+#se-flere {
+    margin: 0 7em 2em 7em;
+}
+
+#se-flere h1 {
+    text-align: center;
+    font-size: 5rem;
+    border-bottom: 10px solid #212121;
+    padding-bottom: .5em;
+}
+
+/*LANDSMØTE: SEKSJON 3: VIDEOGRIDBOKS*/
+
+#videogridboks {
+    height: 100vh;
+    display: grid;
+    grid-template-columns: repeat(2, 1fr);
+    grid-auto-rows: 45vh;
+    gap: 1.5em;
+    margin: 0 7em;
+    border-bottom: 1em solid #212121;
+}
+
+.videogrid {
+    width: 100%;
+    height: 100%;
+}

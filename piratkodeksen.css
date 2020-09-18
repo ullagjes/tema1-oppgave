@@ -1,0 +1,119 @@
+
+/*PIRATKODEKSEN: SEKSJON 1: OVERSKRIFT*/
+
+#overskrift {
+    height: 100%;
+}
+
+#overskrift article {
+    margin: 9em 7em 0 7em;
+    padding: 7em;
+    border-left: 40px solid #cf7500;
+    background-color: #212121;
+}
+
+#overskrift h1 {
+    font-size: 7rem;
+    text-align: left;
+    color: #cf7500;
+}
+
+#overskrift p {
+    font-size: 3.5rem;
+    text-align: left;
+    color: #cf7500;
+    padding: .5em 0 0 0;
+}
+
+/*PIRATKODEKSEN: SEKSJON 2: PIRATKODEKSEN, CSS utformer utseendet til samtlige articles som ligger inne i checkboxene*/
+
+#piratkodeksen {
+    height: 100%;
+    padding-bottom: 4.5em;
+    margin: 0 7em;
+    display: grid;
+    grid-auto-flow: row;
+    gap: 3em;
+    border-left: 40px solid #cf7500;
+}
+
+#piratkodeksen article {
+    text-align: left;
+    height: 10vh;
+    margin-left: 2em;
+    margin-bottom: 0.5em;
+    cursor: pointer;
+}
+
+#piratkodeksen p {
+    padding: 1em 0;
+    opacity: 0;
+    font-size: 2.2rem;
+}
+
+.mellom {
+    padding: .5em 0;
+    font-size: 3rem;
+}
+
+article:hover h2{
+    text-decoration: underline;
+}
+
+/*PIRATKODEKSEN: SEKSJON 2: PIRATKODEKSEN, CHECKBOXES. CSS sørger for at articles kan åpnes og lukkes*/
+
+#cb1 {display:none;}
+#cb1:checked ~ #kodeks1 p {opacity: 1;}
+#cb1:checked ~ #kodeks1 {
+    background-color: #cf7500;
+    height: 30vh;
+}
+
+#cb2 {display:none;}
+#cb2:checked ~ #kodeks2 p {opacity: 1;}
+#cb2:checked ~ #kodeks2 {
+    background-color: #cf7500;
+    height: 30vh;
+}
+
+#cb3 {display:none;}
+#cb3:checked ~ #kodeks3 p {opacity: 1;}
+#cb3:checked ~ #kodeks3 {
+    background-color: #cf7500;
+    height: 30vh;
+}
+
+#cb4 {display:none;}
+#cb4:checked ~ #kodeks4 p {opacity: 1;}
+#cb4:checked ~ #kodeks4 {
+    background-color: #cf7500;
+    height: 30vh;
+}
+
+#cb5 {display:none;}
+#cb5:checked ~ #kodeks5 p {opacity: 1;}
+#cb5:checked ~ #kodeks5 {
+    background-color: #cf7500;
+    height: 30vh;
+}
+
+#cb6 {display:none;}
+#cb6:checked ~ #kodeks6 p {opacity: 1;}
+#cb6:checked ~ #kodeks6 {
+    background-color: #cf7500;
+    height: 30vh;
+}
+
+#cb7 {display:none;}
+#cb7:checked ~ #kodeks7 p {opacity: 1;}
+#cb7:checked ~ #kodeks7 {
+    background-color: #cf7500;
+    height: 30vh;
+}
+
+#cb8 {display:none;}
+#cb8:checked ~ #kodeks8 p {opacity: 1;}
+#cb8:checked ~ #kodeks8 {
+    background-color: #cf7500;
+    height: 30vh;
+}

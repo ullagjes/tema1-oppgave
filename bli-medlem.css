@@ -1,0 +1,147 @@
+
+/*INTRODUKSJON TIL INNMELDING*/
+
+#bakgrunn {
+    height: 100%;
+    background-image: url(./images/pirat-partiet-medlemmer.jpeg);
+    background-repeat: no-repeat;
+    background-size: cover;
+    margin: 9em 7em 0 9em;
+}
+
+#medlem-boks {
+    height: 70vh;
+    width: 70vw;
+    display: flex;
+    flex-flow: column;
+    align-items: center;
+    position: relative;
+    top: 5em;
+    margin: 0 auto;
+    background-color: rgba(0, 0, 0, 0.8);
+    border: 1em solid #cf7500;
+}
+
+
+#medlem-boks h1 {
+    padding-top: 1.5em;
+    font-size: 6rem;
+    color: #cf7500;
+    text-shadow: 1px 1px black;
+}
+
+#medlem-boks p {
+    padding-top: .5em;
+    padding-bottom: 1.5em;
+    font-size: 3rem;
+    text-align: center;
+    color: #cf7500;
+    text-shadow: 1px 1px black;
+}
+
+.knapp a {
+    padding: 1em;
+    font-size: 2rem;
+    text-align: center;
+    text-decoration: none;
+    font-weight: 600;
+    color: #212121;
+    background-color: #f0a500;
+}
+
+.knapp a:hover {
+    background-color: #cf7500;
+    color: white;
+}
+
+/*VILKÅR*/
+
+#vilkår {
+    margin: 7em 7em 0 7em;
+    padding: 2em;
+    border-left: 1em solid #cf7500;
+}
+
+#vilkår h1 {
+    font-size: 4rem;
+}
+
+#vilkår li {
+    font-size: 2rem;
+    padding: 1em 0;
+}
+
+/*SKJEMA for innmelding*/
+
+#påmelding-hoved {
+    margin: 7em 7em 0 7em;
+    height: 100vh;
+    position: relative;
+    border: 1em solid #cf7500;
+}
+
+#påmelding-hoved h1 {
+    font-size: 4.5rem;
+    margin-left: 1em;
+    margin-top: .5em;
+}
+
+form {
+  padding-top: 4em;
+  margin-bottom: 3em;
+}
+
+ul {
+    list-style: none;
+    padding: 0;
+    margin: 0;
+  }
+  
+  form li + li {
+    margin-top: 3em;
+  }
+  
+  label {
+    display: inline-block;
+    width: 9em;
+    text-align: right;
+    font-size: 2rem;
+    margin-right: .3em;
+  }
+  
+  input, 
+  textarea {
+    font-size: 2rem;
+    padding: .5em;
+    width: 40em;
+    box-sizing: border-box;
+    border: 2px solid #cf7500;
+  }
+  
+  input:focus, 
+  textarea:focus {
+    border-color: #212121;
+  }
+  
+  textarea {
+    vertical-align: top;
+    height: 5em;
+    width: 49.3em;
+  }
+
+button {
+    padding: 1em;
+    cursor: pointer;
+    position: absolute;
+    bottom: 1.3em;
+    left: 2em;
+    font-size: 2rem;
+    border: none;
+    background-color: #cf7500;
+}
+
+button:hover {
+    background-color: #212121;
+    color: white;
+    text-decoration: underline;
+}
